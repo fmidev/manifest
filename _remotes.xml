@@ -2,7 +2,7 @@
 <manifest>
     <remote name="legato" alias="origin" fetch="." pushurl="ssh://master.gerrit.legato.io:29418"/>
     <remote name="legato-github" fetch="https://github.com/legatoproject"/>
-    <remote name="fmidev-legato" fetch="https://github.com/fmidev"/>
+    <remote name="fmidev-legato" fetch="https://github.com/fmidev" pushurl="git@github.com:fmidev"/>
 
     <default remote="legato" revision="refs/heads/master" sync-j="5"/>
 </manifest>
