@@ -14,6 +14,7 @@
     <project path="legato/platformAdaptor/dcs/lwip" name="legato-PlatformAdaptor-DcsLwip" dest-branch="master" groups="default,legato" revision="refs/heads/master" remote="legato-github"/>
     <project path="legato/platformAdaptor/wdog/linux" name="legato-PlatformAdaptor-WdogLinux" dest-branch="master" groups="default,legato" revision="refs/heads/master" remote="legato-github"/>
     <project path="legato/platformAdaptor/trustZone/swi" name="legato-PlatformAdaptor-TzSwi" dest-branch="master" groups="default,legato" revision="refs/heads/master" remote="legato-github"/>
+    <project path="legato/platformAdaptor/clock/linux" name="legato-PlatformAdaptor-ClockLinux" dest-branch="master" groups="default,legato" revision="refs/heads/master" remote="legato-github"/>
 
     <!-- Legato: PA QMI (binaries) [proprietary] -->
     <project path="legato/platformAdaptor/qmi/bin/ar7" name="legato-PlatformAdaptor-QmiBin-ar7" dest-branch="master" groups="default,legato,external,proprietary" revision="refs/heads/master" remote="legato-github">
@@ -53,6 +54,7 @@
     <project path="legato/3rdParty/jansson" name="legato-3rdParty-jansson" dest-branch="master-swi" groups="default,legato" revision="refs/heads/master-swi" remote="legato-github"/>
     <project path="legato/3rdParty/pjsip" name="legato-3rdParty-pjsip" dest-branch="master" groups="default,legato" revision="refs/tags/2.6" remote="legato-github"/>
     <project path="legato/3rdParty/tinycbor" name="legato-3rdParty-tinycbor" dest-branch="master-swi" groups="default,legato" revision="refs/heads/master-swi" remote="legato-github"/>
+    <project path="legato/3rdParty/libcbor" name="legato-3rdParty-libcbor" dest-branch="master" groups="default,legato" revision="97b865d8280725f936067ad86673219c1019d101" remote="legato-github"/>
     <project path="legato/3rdParty/lighttpd" name="legato-3rdParty-lighttpd1.4" dest-branch="master" groups="default,legato" revision="refs/tags/lighttpd-1.4.49" remote="legato-github"/>
     <project path="legato/3rdParty/ima-support-tools" name="ima-support-tools" dest-branch="master" groups="default,legato" revision="refs/heads/master" remote="legato-github"/>
     <project path="legato/3rdParty/kconfig-frontends" name="legato-3rdParty-kconfig-frontends" dest-branch="master" groups="default,legato" revision="refs/tags/v4.11.0.1" remote="legato-github"/>
@@ -62,7 +64,7 @@
     <project path="legato/3rdParty/lwftp" name="legato-3rdParty-lwftp" dest-branch="master-swi" groups="default,legato" revision="refs/heads/master-swi" remote="legato-github"/>
     <project path="legato/3rdParty/qemu" name="qemu" dest-branch="master" groups="notdefault,legato,qemu" revision="refs/heads/master" remote="legato-github"/>
     <project path="legato/3rdParty/mbedtls" name="legato-3rdParty-mbedtls" dest-branch="master" groups="default,legato" revision="refs/tags/mbedtls-2.16.3" remote="legato-github"/>
-    <project path="legato/3rdParty/mbedtls/crypto" name="legato-3rdParty-mbed-crypto" dest-branch="master" groups="default,legato" revision="0b3dd8d0249adb54abc7ad46303f3c22e44aefb7" remote="legato-github"/>
+    <project path="legato/3rdParty/mbedtls/crypto" name="legato-3rdParty-mbed-crypto" dest-branch="master" groups="default,legato" revision="refs/tags/20.04.0" remote="legato-github"/>
 
     <!-- Legato Tools -->
 
