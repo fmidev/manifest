@@ -3,7 +3,7 @@
     <include name="_remotes.xml"/>
 
     <!-- Legato: framework -->
-    <project path="legato" name="hav-legato-af" dest-branch="18.06.5-fmi" groups="default,legato" revision="refs/tags/18.06.5-fmi-3" remote="fmidev-legato"/>
+    <project path="legato" name="hav-legato-af" dest-branch="18.06.5-fmi" groups="default,legato" revision="refs/tags/18.06.5-fmi-4" remote="fmidev-legato"/>
 
     <!-- Legato: PA Open-Source -->
     <project path="legato/platformAdaptor/at" name="legato-PlatformAdaptor-AT" dest-branch="18.06-release" groups="default,legato" revision="refs/tags/18.06.5" remote="legato-github"/>
